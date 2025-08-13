@@ -6,7 +6,7 @@
 
 
 <body class="customScroll">
-   <main class="wrapper">
+   <main class="wrapper33">
       <!--Header Start Here-->
       <?php include( "includes/header.php" ); ?>
       <!--Header Ends Here-->
