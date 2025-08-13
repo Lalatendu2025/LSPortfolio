@@ -5,7 +5,7 @@
 <!--Doctype Ends Here-->
 
 
-<body class="customScrolddldd">
+<body class="customScroll">
    <main class="wrapper">
       <!--Header Start Here-->
       <?php include( "includes/header.php" ); ?>
