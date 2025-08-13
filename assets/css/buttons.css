@@ -1,0 +1,98 @@
+/* ===== Base Button Style ===== */
+.btn-main,
+.btn-secondary,
+.btn-outline,
+.btn-gradient,
+.btn-dark,
+.btn-light,
+.btn-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--body-font);
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    gap: 8px;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+/* ===== Main ===== */
+.btn-main {
+    background-color: var(--primary);
+    color: #fff;
+    border: none;
+}
+.btn-main:hover {
+    background-color: var(--secondary);
+}
+
+/* ===== Sub ===== */
+.btn-secondary {
+    background-color: var(--secondary);
+    color: var(--primary);
+    border: 2px solid var(--secondary);
+}
+.btn-secondary:hover {
+    background-color: var(--primary);
+    color: #fff;
+}
+
+/* ===== Outline ===== */
+.btn-outline {
+    background-color: transparent;
+    border: 3px solid var(--primary);
+    color: var(--primary);
+}
+.btn-outline:hover {
+    background-color: var(--primary);
+    color: var(--secondary);
+}
+
+/* ===== Gradient ===== */
+.btn-gradient {
+    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    color: #fff;
+    border: none;
+}
+.btn-gradient:hover {
+    opacity: 0.9;
+}
+
+/* ===== Dark ===== */
+.btn-dark {
+    background-color: #222;
+    color: #fff;
+    border: none;
+}
+.btn-dark:hover {
+    background-color: #000;
+}
+
+/* ===== Light ===== */
+.btn-light {
+    background-color: #f1f1f1;
+    color: #222;
+    border: none;
+}
+.btn-light:hover {
+    background-color: #ddd;
+}
+
+/* ===== Link Style ===== */
+.btn-link {
+    background: none;
+    border: none;
+    color: var(--primary);
+    padding: 0;
+}
+.btn-link:hover {
+    text-decoration: none;
+    color: var(--secondary);
+}
+
+
