@@ -54,13 +54,13 @@
       </div>
     </div>
   </section>
-  <section class="copyRight">
+  <div class="copyRight">
     <div class="container">
         <div class="row">
-            <div class="col-sm-6">
-                <p class="mb-0">Copyright © 2020 <em>Lalatendu Sarangi.</em> All rights reserved.</p>
+            <div class="col-sm-6 order-2 order-sm-1">
+                <p class="mb-0">© 2020 <em>Lalatendu Sarangi.</em> All rights reserved.</p>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 order-1 order-sm-2">
                 <ul class="linkGroup">
                     <li><a href="#">Privacy Policy</a></li>
                     <li><a href="#">Terms of Service</a></li>
@@ -68,7 +68,7 @@
             </div>
         </div>
     </div>
-  </section>
+  </div>
 </footer>
 <!-- footer Section Ends Here -->
 

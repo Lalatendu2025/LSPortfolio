@@ -40,10 +40,10 @@
                      <span class="mainTitle"><em>Services</em> I Provide</span>
                   </h2>
                </div>
-               <div class="col text-end"><button class="btn-lg customBtn"><span>View All Services</span><i
+               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All Services</span><i
                         class="las la-long-arrow-alt-right"></i></button></div>
             </div>
-            <div class="row mt-5">
+            <div class="row mt-3 mt-sm-5 g-3">
                <div class="col-sm-3">
                   <div class="myServiceBox">
                      <span><i class="las la-palette"></i></span>
@@ -87,19 +87,19 @@
       <section class="aboutMe">
          <div class="container">
             <div class="row align-items-center">
-               <div class="col-sm-6">
+               <div class="col-sm-6 mb-5 mb-sm-0">
                   <figure>
                      <img src="assets\img\frameImage.png" alt="Frame Image" class="img-fluid">
                   </figure>
                </div>
                <div class="col-sm-6">
-                  <h2 class="sectionTitle">
+                  <h2 class="sectionTitle inverted">
                      <small class="subTitle"><strong>- </strong>About Me</small>
                      <span class="mainTitle">Who is <em>Lalatendu Sarangi?</em></span>
                   </h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam unde saepe architecto, quod
                      corrupti quaerat est.</p>
-                  <div class="row mb-5">
+                  <div class="row mb-sm-5 mb-4 gap-sm-0 gap-2">
                      <div class="col-sm-4">
                         <h5>100+<small> Projects Completed</small></h5>
                      </div>
@@ -111,12 +111,12 @@
                      </div>
                   </div>
                   <div class="row align-items-center justify-content-start">
-                     <div class="col">
+                     <div class="col-sm-6">
                         <button class="btn-lg customBtn"><span>Download CV</span><i
                               class="las la-long-arrow-alt-right"></i></button>
 
                      </div>
-                     <div class="col">
+                     <div class="col-sm-6">
                         <ul class="mySocialMedia">
                            <li><a href="#"><i class="lab la-facebook-f"></i></a></li>
                            <li><a href="#"><i class="lab la-instagram"></i></a></li>
@@ -132,17 +132,17 @@
       </section>
 
       <section class="myFabTools">
-         <div class="container-fluid">
+         <div class="container">
             <div class="row mb-5">
                <div class="col text-center">
                   <h2 class="sectionTitle">
                      <small class="subTitle"><strong>- </strong>My Services</small>
-                     <span class="mainTitle"><em>Exploring the Tools</em> Behind My Design</span>
+                     <span class="mainTitle"><em>Exploring the Tools</em><br> Behind My Design</span>
                   </h2>
                </div>
             </div>
             <div class="row">
-               <div class="col p-0">
+               <div class="col">
                   <!-- Slider main container -->
                   <div class="swiper">
                      <!-- Additional required wrapper -->
@@ -212,14 +212,14 @@
 
       <section class="myPortFolio">
          <div class="container">
-            <div class="row mb-5 align-items-center justify-content-between">
+            <div class="row mb-5 mb-sm-5 align-items-center justify-content-between">
                <div class="col">
                   <h2 class="sectionTitle">
                      <small class="subTitle"><strong>- </strong>My Portfolio</small>
                      <span class="mainTitle">My Latest <em>Projects</em></span>
                   </h2>
                </div>
-               <div class="col text-end"><button class="btn-lg customBtn"><span>View All Projects</span><i
+               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All Projects</span><i
                         class="las la-long-arrow-alt-right"></i></button></div>
             </div>
             <div class="row g-5">
@@ -417,12 +417,12 @@
          <div class="container">
             <div class="row mb-5 align-items-center justify-content-between">
                <div class="col">
-                  <h2 class="sectionTitle">
+                  <h2 class="sectionTitle inverted">
                      <small class="subTitle"><strong>- </strong>Pricing Table</small>
                      <span class="mainTitle">My <em>Pricing Model</em></span>
                   </h2>
                </div>
-               <div class="col text-end"><button class="btn-lg customBtn"><span>Get Started</span><i
+               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>Get Started</span><i
                         class="las la-long-arrow-alt-right"></i></button></div>
             </div>
             <div class="row g-5">
@@ -499,7 +499,7 @@
       <section class="myContactForm">
          <div class="container">
             <div class="row align-items-center justify-content-between">
-               <div class="col-sm-5">
+               <div class="col-sm-5 mb-5 mb-sm-0">
                   <div class="row">
                      <div class="col-12">
                         <h2 class="sectionTitle">
@@ -527,13 +527,13 @@
                <div class="col-sm-6">
                   <form action="#" class="mcForm">
                      <div class="row mb-4">
-                        <div class="col-6">
+                        <div class="col-sm-6 mb-4 mb-sm-0">
                            <div class="form-group">
                               <label for="name">Name</label>
                               <input type="text" id="name" class="form-control" placeholder="Your Name">
                            </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-6">
                            <div class="form-group">
                               <label for="email">Email</label>
                               <input type="email" id="email" class="form-control" placeholder="Your Email">
@@ -541,13 +541,13 @@
                         </div>
                      </div>
                      <div class="row mb-4">
-                        <div class="col-6">
+                        <div class="col-sm-6 mb-4 mb-sm-0">
                            <div class="form-group">
                               <label for="phone">Phone</label>
                               <input type="text" id="phone" class="form-control" placeholder="Your Phone Number">
                            </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-6">
                            <div class="form-group">
                               <label for="ilike">I'm Interested in</label>
                               <select name="ilike" id="ilike" class="form-control">
@@ -561,7 +561,7 @@
                         </div>
                      </div>
                      <div class="row mb-4">
-                        <div class="col-6">
+                        <div class="col-sm-6 mb-4 mb-sm-0">
                            <div class="form-group">
                               <label for="budget">Budget Range</label>
                               <select name="budget" id="budget" class="form-control">
@@ -573,7 +573,7 @@
                               </select>
                            </div>
                         </div>
-                        <div class="col-6">
+                        <div class="col-sm-6">
                            <div class="form-group">
                               <label for="country">Country</label>
                               <select name="country" id="country" class="form-control">
@@ -623,7 +623,7 @@
                </div>
             </div>
             <div class="row mt-5 mb-4">
-               <div class="col p-0">
+               <div class="col p-sm-0">
                   <!-- Slider main container -->
                   <div class="swiper">
                      <!-- Additional required wrapper -->
@@ -767,10 +767,10 @@
                      <span class="mainTitle">My Latest <em>News & Blogs</em></span>
                   </h2>
                </div>
-               <div class="col text-end"><button class="btn-lg customBtn"><span>View All Blogs</span><i
+               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All Blogs</span><i
                         class="las la-long-arrow-alt-right"></i></button></div>
             </div>
-            <div class="row">
+            <div class="row g-5">
                <div class="col-sm-4">
                   <div class="blogCard">
                      <figure>
@@ -840,7 +840,7 @@
          <div class="container">
             <div class="row mb-5">
                <div class="col-12 text-center">
-                  <h2 class="sectionTitle">
+                  <h2 class="sectionTitle inverted">
                      <small class="subTitle"><strong>- </strong>FAQs</small>
                      <span class="mainTitle">Questions? <em>Look Here.</em></span>
                   </h2>

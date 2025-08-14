@@ -20,14 +20,20 @@ $(document).ready(function () {
    effect: "coverflow",
     grabCursor: true,
     centeredSlides: false,
-    slidesPerView: 5,
-    spaceBetween: 30,
+    slidesPerView: 2,
+    spaceBetween: 10,
     coverflowEffect: {
       rotate: 10,
       stretch: 1,
       depth: 10,
       modifier: 1,
       slideShadows: false,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 5,
+        spaceBetween: 30
+      }
     },
     loop: true,
     autoplay: {
@@ -48,7 +54,7 @@ $(document).ready(function () {
       disableOnInteraction: true
     }
   });
-  const myCareerSwiper1 = new Swiper('.myCareer .col-sm-6:last-child .mcBody .swiper', {
+  const myJobSwiper = new Swiper('.myCareer .col-sm-6:last-child .mcBody .swiper', {
     direction: 'vertical',
     slidesPerView: 3,
     spaceBetween: 25,
@@ -67,14 +73,20 @@ $(document).ready(function () {
     effect: "coverflow",
     grabCursor: true,
     centeredSlides: false,
-    slidesPerView: 3,
-    spaceBetween: 25,
+    slidesPerView: 1,
+    spaceBetween: 15,
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
       depth: 10,
       modifier: 1,
       slideShadows: false,
+    },
+    breakpoints: {
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 25
+      }
     },
     loop: true,
     autoplay: {

@@ -57,7 +57,8 @@ video {
 /* 4. Lists */
 ul,
 ol,
-p,figure {
+p,
+figure {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -87,6 +88,7 @@ select {
 /* ===== Custom Container ===== */
 .container {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -99,14 +101,28 @@ select {
   padding: 1.5em 0;
   transition: 0.3s ease;
 }
-.header.header-fixed {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 1000;
-  padding: 1em 0;
-}
 
+.header-fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  animation-name: appear;
+  animation-duration: 0.5s;
+  transform-origin: top;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+}
+@keyframes appear {
+from {
+transform: translateY(-200px);
+opacity: 0.3;
+
+}
+to {
+transform: translateY(0);
+opacity: 1;
+}
+}
 /* ===== Logo ===== */
 .logo img {
   max-height: 50px;
@@ -159,6 +175,35 @@ select {
   color: #fff;
   text-decoration: none;
 }
+
+/* ===== Heading Text ===== */
+
+.sectionTitle .subTitle {
+  display: block;
+  font-size: 0.6em;
+  color: #000;
+  font-weight: 100;
+}
+.sectionTitle .subTitle strong {
+  color: var(--secondary);
+}
+.sectionTitle .mainTitle {
+  display: block;
+  font-size: 1.4em;
+  color: var(--primary);
+  font-weight: 100;
+}
+
+.sectionTitle .mainTitle em {
+  color: var(--secondary);
+}
+
+.sectionTitle.inverted .subTitle,
+.sectionTitle.inverted .mainTitle {
+  color: #fff;
+}
+
+
 
 /* ===== Hero Banner ===== */
 .heroBanner {
@@ -313,25 +358,6 @@ select {
   padding: 5em 0;
 }
 
-.myServices .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #000;
-  font-weight: 100;
-}
-.myServices .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.myServices .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: var(--primary);
-  font-weight: 100;
-}
-
-.myServices .sectionTitle .mainTitle em {
-  color: var(--secondary);
-}
 
 .myServices .myServiceBox {
   background: #fff;
@@ -380,26 +406,6 @@ select {
   padding: 5em 0;
 }
 
-.aboutMe .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #fff;
-  font-weight: 100;
-  margin-bottom: 10px;
-}
-.aboutMe .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.aboutMe .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: #fff;
-  font-weight: 100;
-}
-
-.aboutMe .sectionTitle .mainTitle em {
-  color: var(--secondary);
-}
 .aboutMe h5 {
   color: var(--secondary);
   font-size: 3em;
@@ -440,26 +446,6 @@ select {
   padding: 5em 0;
 }
 
-.myFabTools .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #000;
-  font-weight: 100;
-}
-.myFabTools .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.myFabTools .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: var(--primary);
-  font-weight: 100;
-}
-
-.myFabTools .sectionTitle .mainTitle em {
-  display: block;
-  color: var(--secondary);
-}
 .myFabTools .swiper-slide {
   text-align: center;
 }
@@ -503,25 +489,6 @@ select {
   background: #f7f7f7;
 }
 
-.myPortFolio .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #000;
-  font-weight: 100;
-}
-.myPortFolio .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.myPortFolio .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: var(--primary);
-  font-weight: 100;
-}
-
-.myPortFolio .sectionTitle .mainTitle em {
-  color: var(--secondary);
-}
 .myPortFolio .myProjectBox {
   background: #fff;
   border-radius: 20px;
@@ -570,25 +537,6 @@ select {
   background: #fff;
 }
 
-.myCareer .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #000;
-  font-weight: 100;
-}
-.myCareer .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.myCareer .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: var(--primary);
-  font-weight: 100;
-}
-
-.myCareer .sectionTitle .mainTitle em {
-  color: var(--secondary);
-}
 
 .myCareer .myCareerBox {
   background: #f7f7f7;
@@ -657,26 +605,6 @@ select {
   background: var(--primary);
 }
 
-.myPricingList .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #fff;
-  font-weight: 100;
-  margin-bottom: 10px;
-}
-.myPricingList .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.myPricingList .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: #fff;
-  font-weight: 100;
-}
-
-.myPricingList .sectionTitle .mainTitle em {
-  color: var(--secondary);
-}
 
 .myPricingList .pricingBox {
   padding: 1.25em;
@@ -778,25 +706,6 @@ select {
   background: #fff;
 }
 
-.myContactForm .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #000;
-  font-weight: 100;
-}
-.myContactForm .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.myContactForm .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: var(--primary);
-  font-weight: 100;
-}
-
-.myContactForm .sectionTitle .mainTitle em {
-  color: var(--secondary);
-}
 .myContactForm h5 {
   display: flex;
   align-items: center;
@@ -842,25 +751,6 @@ select {
   background: #f7f7f7;
 }
 
-.clientReviews .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #000;
-  font-weight: 100;
-}
-.clientReviews .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.clientReviews .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: var(--primary);
-  font-weight: 100;
-}
-
-.clientReviews .sectionTitle .mainTitle em {
-  color: var(--secondary);
-}
 .clientReviews .clientReviewBox {
   padding: 2em;
   background: #fff;
@@ -957,25 +847,6 @@ select {
   background: #fff;
 }
 
-.myBlogs .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #000;
-  font-weight: 100;
-}
-.myBlogs .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.myBlogs .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: var(--primary);
-  font-weight: 100;
-}
-
-.myBlogs .sectionTitle .mainTitle em {
-  color: var(--secondary);
-}
 .myBlogs .blogCard {
   position: relative;
 }
@@ -997,81 +868,68 @@ select {
   background: var(--secondary);
   color: #fff;
   font-size: 2em;
-  border-radius:30px;
+  border-radius: 30px;
   height: 50px;
   width: 50px;
   margin: auto;
   text-align: center;
-  transform:scale(0);
-  transition:.2s;
-  cursor:pointer
+  transform: scale(0);
+  transition: 0.2s;
+  cursor: pointer;
 }
-.myBlogs .blogCard:hover figure figcaption{
-  transform:scale(1)
+.myBlogs .blogCard:hover figure figcaption {
+  transform: scale(1);
 }
-.myBlogs .blogCard figure img {height: 100%;width: 100%;object-fit: cover;}
+.myBlogs .blogCard figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .myBlogs .blogCard .blogTags {
   display: flex;
-  align-items:center;
+  align-items: center;
   justify-content: space-between;
-  font-weight:100;
-  font-size:.75em;
-  margin-top:1em
-  
+  font-weight: 100;
+  font-size: 0.75em;
+  margin-top: 1em;
 }
-.myBlogs .blogCard .blogTags span{
-  background:var(--secondary);
-  min-width:150px
+.myBlogs .blogCard .blogTags span {
+  background: var(--secondary);
+  min-width: 150px;
 }
-.myBlogs .blogCard .blogTags small{
-  background:#333;
-  color:var(--secondary)
+.myBlogs .blogCard .blogTags small {
+  background: #333;
+  color: var(--secondary);
 }
-.myBlogs .blogCard .blogTags>*{
-  padding:5px;
-  
+.myBlogs .blogCard .blogTags > * {
+  padding: 5px;
 }
-.myBlogs .blogCard .blogTags i{margin-right:5px}
-.myBlogs .blogCard .blogBody{
-  padding:1em 0
+.myBlogs .blogCard .blogTags i {
+  margin-right: 5px;
 }
-.myBlogs .blogCard .blogBody h3{margin-bottom: .25em;font-size: 1.5em;}
-.myBlogs .blogCard .blogBody p{}
+.myBlogs .blogCard .blogBody {
+  padding: 1em 0;
+}
+.myBlogs .blogCard .blogBody h3 {
+  margin-bottom: 0.25em;
+  font-size: 1.5em;
+}
+.myBlogs .blogCard .blogBody p {
+}
 
-
-
-.myFaqs{
-  padding:5em 0;
+.myFaqs {
+  padding: 5em 0;
   background: var(--primary);
 }
 
-.myFaqs .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #fff;
-  font-weight: 100;
-  margin-bottom: 10px;
-}
-.myFaqs .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.myFaqs .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: #fff;
-  font-weight: 100;
-}
 
-.myFaqs .sectionTitle .mainTitle em {
-  color: var(--secondary);
+.myFaqs .faqAccordion {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
 }
-.myFaqs .faqAccordion{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-}
-.myFaqs .faqAccordion .accordion-item{
+.myFaqs .faqAccordion .accordion-item {
   background: transparent;
   border: none;
   border-radius: 1.5em;
@@ -1102,128 +960,140 @@ select {
 }
 
 .myFaqs .faqAccordion .accordion-button:not(.collapsed)::after {
-   /* Makes the arrow white */
+  /* Makes the arrow white */
 }
 
 /* Accordion body when expanded */
-.myFaqs .faqAccordion .accordion-item .accordion-button:not(.collapsed) + .accordion-collapse .accordion-body {
+.myFaqs
+  .faqAccordion
+  .accordion-item
+  .accordion-button:not(.collapsed)
+  + .accordion-collapse
+  .accordion-body {
   background: #3a493a; /* Match expanded button color */
 }
 
-
 .myFaqs .faqAccordion .accordion-button:not(.collapsed)::after,
-.myFaqs .faqAccordion .accordion-button::after{
+.myFaqs .faqAccordion .accordion-button::after {
   background-image: none;
-  font-family: 'Line Awesome Free';
+  font-family: "Line Awesome Free";
   font-weight: 900;
   content: "\f067";
 }
-.myFaqs .faqAccordion .accordion-button:not(.collapsed)::after{
+.myFaqs .faqAccordion .accordion-button:not(.collapsed)::after {
   content: "\f068";
   color: #000;
 }
 
-.footer{}
+.footer {
+}
 .footer .mainFooter {
   padding: 5em 0;
   background: #fff;
 }
 
-.footer .mainFooter .sectionTitle .subTitle {
-  display: block;
-  font-size: 0.6em;
-  color: #000;
-  font-weight: 100;
-}
-.footer .mainFooter .sectionTitle .subTitle strong {
-  color: var(--secondary);
-}
-.footer .mainFooter .sectionTitle .mainTitle {
-  display: block;
-  font-size: 1.4em;
-  color: var(--primary);
-  font-weight: 100;
-}
 
-.footer .mainFooter .sectionTitle .mainTitle em {
+.footer .mainFooter .footerLogo {
+}
+.footer .mainFooter .footerLogo img {
+}
+.footer .mainFooter .footerSocialLinks {
+  display: flex;
+  gap: 15px;
+}
+.footer .mainFooter p {
+}
+.footer .mainFooter .footerSocialLinks li {
+}
+.footer .mainFooter .footerSocialLinks li a {
+  background: var(--secondary);
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  transition: 0.2s;
+}
+.footer .mainFooter .footerSocialLinks li a:hover {
+  background: var(--primary);
+}
+.footer .mainFooter .footerSocialLinks li a i {
+  color: #fff;
+  font-size: 1.5em;
+}
+.footer .mainFooter .footerHeading {
+  font-size: 1.25em;
   color: var(--secondary);
+  margin-bottom: 1em;
 }
-.footer .mainFooter .footerLogo {} 
-.footer .mainFooter .footerLogo img{} 
-.footer .mainFooter .footerSocialLinks{
-    display: flex;
-    gap: 15px;
-} 
-.footer .mainFooter p{
-} 
-.footer .mainFooter .footerSocialLinks li{} 
-.footer .mainFooter .footerSocialLinks li a{
-    background: var(--secondary);
-    height: 40px;
-    width: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 30px;
-  transition:.2s
-} 
-.footer .mainFooter .footerSocialLinks li a:hover{
-  background:var(--primary)
+.footer .mainFooter .footerNavLinks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
-.footer .mainFooter .footerSocialLinks li a i{
-    color: #fff;
-    font-size: 1.5em;
-} 
-.footer .mainFooter .footerHeading{
-    font-size: 1.25em;
-    color: var(--secondary);
-    margin-bottom: 1em;
-} 
-.footer .mainFooter .footerNavLinks{
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-} 
-.footer .mainFooter .footerNavLinks li{} 
-.footer .mainFooter .footerNavLinks li a{
+.footer .mainFooter .footerNavLinks li {
+}
+.footer .mainFooter .footerNavLinks li a {
   font-weight: 600;
-  transition:.2s
-} 
-.footer .mainFooter .footerNavLinks li a i{
-  margin-right: .5em;
-} 
-.footer .mainFooter .footerNavLinks li a:hover{
-  color:var(--secondary)
+  transition: 0.2s;
 }
-.footer .mainFooter .footerAddress{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-} 
-.footer .mainFooter .footerAddress h5{
-    font-weight: 100;
-    font-size: 1em;
-} 
-.footer .mainFooter .footerNewsletterForm{} 
-.footer .mainFooter .footerNewsletterForm .input-group{} 
-.footer .mainFooter .footerNewsletterForm .input-group .form-control{} 
-.footer .mainFooter .footerNewsletterForm .input-group button{border-radius: 0 6px 6px 0;} 
-.footer .mainFooter .footerNewsletterForm .input-group button i{font-size: 2em;} 
-
-.footer .copyRight{
-  padding:1em 0;
-  background:var(--primary);
+.footer .mainFooter .footerNavLinks li a i {
+  margin-right: 0.5em;
 }
-.footer .copyRight p{color:#fff}
-.footer .copyRight p em{color:var(--secondary)}
-.footer .copyRight .linkGroup{display: flex; gap: 15px;justify-content: flex-end;}
-.footer .copyRight .linkGroup li{}
-.footer .copyRight .linkGroup li a{color: #fff; transition: .2s;}
-.footer .copyRight .linkGroup li a:hover{color:var(--secondary)}
+.footer .mainFooter .footerNavLinks li a:hover {
+  color: var(--secondary);
+}
+.footer .mainFooter .footerAddress {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer .mainFooter .footerAddress h5 {
+  font-weight: 100;
+  font-size: 1em;
+}
+.footer .mainFooter .footerNewsletterForm {
+}
+.footer .mainFooter .footerNewsletterForm .input-group {
+}
+.footer .mainFooter .footerNewsletterForm .input-group .form-control {
+}
+.footer .mainFooter .footerNewsletterForm .input-group button {
+  border-radius: 0 6px 6px 0;
+}
+.footer .mainFooter .footerNewsletterForm .input-group button i {
+  font-size: 2em;
+}
 
-.scrolltotop{
+.footer .copyRight {
+  padding: 1em 0;
+  background: var(--primary);
+}
+.footer .copyRight p {
+  color: #fff;
+}
+.footer .copyRight p em {
+  color: var(--secondary);
+}
+.footer .copyRight .linkGroup {
+  display: flex;
+  gap: 15px;
+  justify-content: flex-end;
+}
+.footer .copyRight .linkGroup li {
+}
+.footer .copyRight .linkGroup li a {
+  color: #fff;
+  transition: 0.2s;
+}
+.footer .copyRight .linkGroup li a:hover {
+  color: var(--secondary);
+}
+
+.scrolltotop {
   position: fixed;
-  bottom:1em;
+  bottom: 1em;
   right: 1em;
   background: var(--secondary);
   height: 40px;
@@ -1233,23 +1103,40 @@ select {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  opacity: .5;
-  transition: .2s;
+  opacity: 0.5;
+  transition: 0.2s;
 }
-.scrolltotop:hover{
+.scrolltotop:hover {
   opacity: 1;
 }
-.scrolltotop::after{
-  font-family: 'Line Awesome Free';
+.scrolltotop::after {
+  font-family: "Line Awesome Free";
   font-weight: 900;
   content: "\f106";
-  color:#fff;
+  color: #fff;
   font-size: 1.5em;
 }
 @media screen and (max-width: 600px) {
+  section{
+    overflow-x: hidden;
+    padding: 2em 0!important;
+  }
   .header {
     padding: 0.5em 0;
   }
+.heroBanner h1{
+  font-size: 1.75em;
+}
+.heroBanner h4{
+  margin-bottom: 20px;
+  font-size: 1.25em;
+}
+.heroBanner h2{
+  font-size:1.25em
+}
+.heroBanner p{
+  margin:15px 0
+}
   .contactBtn {
     padding: 5px;
     height: 40px;
@@ -1279,5 +1166,38 @@ select {
     right: 0px;
     background: var(--primary);
     padding: 1em;
+  }
+  .myContactForm h5{
+    font-size: 1em;
+  }
+  .myCareer .myCareerBox{
+    padding: 1.5em;
+  }
+  .myCareer .myCareerBox .mcBody .swiper-slide h5{
+    font-size: 1.25em;
+  }
+  .aboutMe p{
+    margin:15px 0
+  }
+  .aboutMe .mySocialMedia{
+    display: none;
+  }
+  .aboutMe h5{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+  }
+  .aboutMe h5 small{
+    display: inline-block;
+
+  }
+  .sectionTitle .subTitle{
+    font-size: .875em;
+  }
+  .footer .copyRight {
+    text-align: center;
+  }
+  .footer .copyRight .linkGroup {
+    justify-content: center;
   }
 }

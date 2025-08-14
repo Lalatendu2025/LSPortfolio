@@ -2,7 +2,7 @@
 <!-- Meta Tags -->
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes" user-scalable="no">
 <meta name="title" content="Lalatendu Sarangi">
 <meta name="keyword" content="">
 <meta name="description" content="UI/UX Designer and Developer">

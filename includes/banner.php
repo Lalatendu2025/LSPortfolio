@@ -1,7 +1,7 @@
 <section class="heroBanner">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-sm-6 mb-5 mb-sm-0">
+            <div class="col-sm-6 my-5 my-sm-0 order-2 order-sm-1">
                 <h4>Hello There...!</h4>
                 <h1>I am <span>Lalatendu Sarangi,</span></h1>
                 <h2>UI/UX Designer and Developer<strong>From Bhubaneswar, Odisha</strong></h2>
@@ -9,7 +9,7 @@
                 <button class="btn-lg customBtn"><span>View My Portfolio</span><i class="las la-play"></i></button>
                 <button class="btn-lg btn-outline hireMeBtn">Hire Me</button>
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-6 order-1 order-sm-2">
                 <figure>
                     <img src="assets\img\bannerImage.png" alt="">
                 </figure>
