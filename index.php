@@ -40,25 +40,25 @@
                      <span class="mainTitle"><em>Services</em> I Provide</span>
                   </h2>
                </div>
-               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All Services</span><i
-                        class="las la-long-arrow-alt-right"></i></button></div>
+               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All
+                        Services</span><i class="las la-long-arrow-alt-right"></i></button></div>
             </div>
             <div class="row mt-3 mt-sm-5 g-3">
                <div class="col-sm-3">
                   <div class="myServiceBox">
                      <span><i class="las la-palette"></i></span>
                      <h3>UI/UX Design</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere labore! Minima ducimus
-                        iusto, magnam enim ea natus dolor.</p>
+                     <p class="text-limit-3">UI/UX design is all about creating digital products like websites, mobile
+                        apps, or software—that are functional, aesthetically pleasing, and easy to use.</p>
                      <a href="#">Learn More <i class="las la-long-arrow-alt-right"></i></a>
                   </div>
                </div>
                <div class="col-sm-3">
                   <div class="myServiceBox">
                      <span><i class="las la-bezier-curve"></i></span>
-                     <h3>App Design</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere labore! Minima ducimus
-                        iusto, magnam enim ea natus dolor.</p>
+                     <h3>Mobile App Design</h3>
+                     <p class="text-limit-3">Mobile App Design is the process of creating visually appealing,
+                        functional, and intuitive interfaces specifically for smartphones and tablets.</p>
                      <a href="#">Learn More <i class="las la-long-arrow-alt-right"></i></a>
                   </div>
                </div>
@@ -66,8 +66,8 @@
                   <div class="myServiceBox">
                      <span><i class="las la-globe"></i></span>
                      <h3>Website Design</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere labore! Minima ducimus
-                        iusto, magnam enim ea natus dolor.</p>
+                     <p class="text-limit-3">Website Design is the process of planning, creating, and arranging visual
+                        elements and content for a website to make it attractive, functional, and user-friendly.</p>
                      <a href="#">Learn More <i class="las la-long-arrow-alt-right"></i></a>
                   </div>
                </div>
@@ -75,8 +75,8 @@
                   <div class="myServiceBox">
                      <span><i class="las la-boxes"></i></span>
                      <h3>Product Design</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero, facere labore! Minima ducimus
-                        iusto, magnam enim ea natus dolor.</p>
+                     <p class="text-limit-3">In the digital world, product design often focuses on software, apps, and
+                        web platforms, but the principles apply to physical products too.</p>
                      <a href="#">Learn More <i class="las la-long-arrow-alt-right"></i></a>
                   </div>
                </div>
@@ -97,17 +97,17 @@
                      <small class="subTitle"><strong>- </strong>About Me</small>
                      <span class="mainTitle">Who is <em>Lalatendu Sarangi?</em></span>
                   </h2>
-                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi magnam unde saepe architecto, quod
-                     corrupti quaerat est.</p>
+                  <p>Lalatendu Sarangi is a creative UI/UX designer who specializes in crafting visually appealing,
+                     user-friendly digital experiences, ensuring high-quality results in every project.</p>
                   <div class="row mb-sm-5 mb-4 gap-sm-0 gap-2">
                      <div class="col-sm-4">
-                        <h5>100+<small> Projects Completed</small></h5>
+                        <h5>250+<small> Projects Completed</small></h5>
                      </div>
                      <div class="col-sm-4">
-                        <h5>50+<small> Happy Clients</small></h5>
+                        <h5>150+<small> Happy Clients</small></h5>
                      </div>
                      <div class="col-sm-4">
-                        <h5>5+<small> Years of Experience</small></h5>
+                        <h5>8+<small> Years of Experience</small></h5>
                      </div>
                   </div>
                   <div class="row align-items-center justify-content-start">
@@ -219,8 +219,8 @@
                      <span class="mainTitle">My Latest <em>Projects</em></span>
                   </h2>
                </div>
-               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All Projects</span><i
-                        class="las la-long-arrow-alt-right"></i></button></div>
+               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All
+                        Projects</span><i class="las la-long-arrow-alt-right"></i></button></div>
             </div>
             <div class="row g-5">
                <div class="col-sm-4">
@@ -229,12 +229,12 @@
                         <img src="assets/img/portfolioImgs/CNFINDIA.png" alt="">
                      </figure>
                      <ul class="projectTags">
-                        <li>Photoshop</li>
-                        <li>Figma</li>
-                        <li>UI/UX</li>
+                        <li>Branding</li>
+                        <li>Advertising</li>
+                        <li>Infographic</li>
                      </ul>
                      <div class="projectBoxFooter">
-                        <h5>CNF India</h5>
+                        <h5>Graphic Designing</h5>
                         <a href="#" class="btn btn-main"><i class="las la-long-arrow-alt-right"></i></a>
                      </div>
                   </div>
@@ -245,11 +245,12 @@
                         <img src="assets/img/portfolioImgs/tea-talk.jpg" alt="">
                      </figure>
                      <ul class="projectTags">
-                        <li>Web Design</li>
-                        <li>UI/UX</li>
+                        <li>Prototype</li>
+                        <li>Wireframes</li>
+                        <li>Mockups</li>
                      </ul>
                      <div class="projectBoxFooter">
-                        <h5>Tea Talk</h5>
+                        <h5>UI/UX Designing</h5>
                         <a href="#" class="btn btn-main"><i class="las la-long-arrow-alt-right"></i></a>
                      </div>
                   </div>
@@ -260,11 +261,13 @@
                         <img src="assets/img/portfolioImgs/Dairy-Farm.png" alt="">
                      </figure>
                      <ul class="projectTags">
-                        <li>Web Design</li>
-                        <li>UI/UX</li>
+                        <li>Static</li>
+                        <li>Parallax</li>
+                        <li>Responsive</li>
+                        <li>CMS</li>
                      </ul>
                      <div class="projectBoxFooter">
-                        <h5>Dairy Farm</h5>
+                        <h5>Website Design</h5>
                         <a href="#" class="btn btn-main"><i class="las la-long-arrow-alt-right"></i></a>
                      </div>
                   </div>
@@ -275,11 +278,12 @@
                         <img src="assets/img/portfolioImgs/WebDew.png" alt="">
                      </figure>
                      <ul class="projectTags">
-                        <li>Web Design</li>
-                        <li>UI/UX</li>
+                        <li>Native</li>
+                        <li>Hybrid</li>
+                        <li>Progressive</li>
                      </ul>
                      <div class="projectBoxFooter">
-                        <h5>Web Dew</h5>
+                        <h5>Mobile App Designing</h5>
                         <a href="#" class="btn btn-main"><i class="las la-long-arrow-alt-right"></i></a>
                      </div>
                   </div>
@@ -290,12 +294,12 @@
                         <img src="assets/img/portfolioImgs/CNFINDIA.png" alt="">
                      </figure>
                      <ul class="projectTags">
-                        <li>Photoshop</li>
-                        <li>Figma</li>
-                        <li>UI/UX</li>
+                        <li>Operational</li>
+                        <li>Analytical</li>
+                        <li>Informational</li>
                      </ul>
                      <div class="projectBoxFooter">
-                        <h5>CNF India</h5>
+                        <h5>Dashboard Designing</h5>
                         <a href="#" class="btn btn-main"><i class="las la-long-arrow-alt-right"></i></a>
                      </div>
                   </div>
@@ -306,11 +310,12 @@
                         <img src="assets/img/portfolioImgs/tea-talk.jpg" alt="">
                      </figure>
                      <ul class="projectTags">
-                        <li>Web Design</li>
-                        <li>UI/UX</li>
+                        <li>Industrial</li>
+                        <li>Digital</li>
+                        <li>Conceptual</li>
                      </ul>
                      <div class="projectBoxFooter">
-                        <h5>Tea Talk</h5>
+                        <h5>Product Designing</h5>
                         <a href="#" class="btn btn-main"><i class="las la-long-arrow-alt-right"></i></a>
                      </div>
                   </div>
@@ -422,10 +427,15 @@
                      <span class="mainTitle">My <em>Pricing Model</em></span>
                   </h2>
                </div>
-               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>Get Started</span><i
-                        class="las la-long-arrow-alt-right"></i></button></div>
+               <div class="col text-end d-sm-block d-none">
+                  <button class="btn-lg customBtn">
+                     <span>Get Started</span><i class="las la-long-arrow-alt-right"></i>
+                  </button>
+               </div>
             </div>
-            <div class="row g-5">
+
+            <div class="row g-3">
+               <!-- Hourly -->
                <div class="col-sm-4">
                   <div class="pricingBox">
                      <div class="pbHeader">
@@ -433,20 +443,21 @@
                         <span><i class="lar la-money-bill-alt"></i></span>
                      </div>
                      <div class="pbBody">
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p class="disabled"><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
+                        <p><i class="lar la-check-circle"></i> Research & Understanding</p>
+                        <p><i class="lar la-check-circle"></i> UX Planning & Strategy</p>
+                        <p><i class="lar la-check-circle"></i> UI Design (Visuals)</p>
+                        <p><i class="lar la-check-circle"></i> Prototyping</p>
+                        <p><i class="lar la-check-circle"></i> Collaboration & Handoff</p>
+                        <p><i class="lar la-check-circle"></i> Testing & Feedback</p>
+                        <p><i class="lar la-check-circle"></i> Post-Delivery Support</p>
+                        <p><i class="lar la-check-circle"></i> Basic Accessibility Checks</p>
+                        <p><i class="lar la-check-circle"></i> Quick Turnaround for Small Tasks</p>
+                        <p><i class="lar la-check-circle"></i> Optional Add-ons</p>
                      </div>
                   </div>
                </div>
+
+               <!-- Monthly -->
                <div class="col-sm-4">
                   <div class="pricingBox inverted">
                      <div class="pbHeader">
@@ -455,46 +466,50 @@
                         <span><i class="lar la-money-bill-alt"></i></span>
                      </div>
                      <div class="pbBody">
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p class="disabled"><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
+                        <p><i class="lar la-check-circle"></i> Unlimited Design Scope</p>
+                        <p><i class="lar la-check-circle"></i> Brand-Consistent Visual Design</p>
+                        <p><i class="lar la-check-circle"></i> Dedicated UI/UX Support</p>
+                        <p><i class="lar la-check-circle"></i> UX Research & Strategy</p>
+                        <p><i class="lar la-check-circle"></i> UI Design & Branding</p>
+                        <p><i class="lar la-check-circle"></i> Developer Collaboration</p>
+                        <p><i class="lar la-check-circle"></i> Communication & Workflow</p>
+                        <p><i class="lar la-check-circle"></i> Continuous Testing & Improvement</p>
+                        <p><i class="lar la-check-circle"></i> Performance-Based Design Updates</p>
+                        <p><i class="lar la-check-circle"></i> Landing Page Optimization</p>
+                        <p><i class="lar la-check-circle"></i> Priority Feature Design Requests</p>
+                        <p><i class="lar la-check-circle"></i> A/B Testing for Better Conversions</p>
                      </div>
                   </div>
                </div>
+
+               <!-- Quarterly -->
                <div class="col-sm-4">
                   <div class="pricingBox">
                      <div class="pbHeader">
-                        <h2><strong>Quarterly</strong><i class="las la-rupee-sign"></i>3,50,000 <small>/ Quarter</small>
+                        <h2><strong>Quarterly</strong><i class="las la-rupee-sign"></i>2,70,000 <small>/ Quarter</small>
                         </h2>
                         <span><i class="lar la-money-bill-alt"></i></span>
                      </div>
                      <div class="pbBody">
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
-                        <p class="disabled"><i class="lar la-check-circle"></i> Copy icon & paste into design.</p>
+                        <p><i class="lar la-check-circle"></i> UX Discovery & Stakeholder Workshop</p>
+                        <p><i class="lar la-check-circle"></i> Detailed User Personas & Journeys</p>
+                        <p><i class="lar la-check-circle"></i> Wireframes & Interactive Prototypes</p>
+                        <p><i class="lar la-check-circle"></i> Responsive UI Design for All Devices</p>
+                        <p><i class="lar la-check-circle"></i> Custom Icons, Illustrations & Graphics</p>
+                        <p><i class="lar la-check-circle"></i> Design System Creation & Maintenance</p>
+                        <p><i class="lar la-check-circle"></i> Monthly Usability & A/B Testing</p>
+                        <p><i class="lar la-check-circle"></i> Accessibility & WCAG Compliance</p>
+                        <p><i class="lar la-check-circle"></i> Quarterly UX Impact Report</p>
+                        <p><i class="lar la-check-circle"></i> Quarterly Product Design Roadmap</p>
+                        <p><i class="lar la-check-circle"></i> Full-Scale Design System Overhaul</p>
+                        <p><i class="lar la-check-circle"></i> Multi-Platform Design Consistency Audit</p>
+                        <p><i class="lar la-check-circle"></i> User Retention & Engagement Strategy</p>
                      </div>
                   </div>
                </div>
             </div>
          </div>
       </section>
-
 
       <section class="myContactForm">
          <div class="container">
@@ -510,8 +525,7 @@
                   </div>
                   <div class="row my-4">
                      <div class="col-12">
-                        <p class="m-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae laborum quo earum
-                           quibusdam?</p>
+                        <p class="m-0">I’m here to help bring your ideas to life with creative, user-focused design solutions. Whether it’s a fresh concept or a redesign, let’s craft something that stands out and delivers results.</p>
                      </div>
                   </div>
                   <div class="row">
@@ -552,11 +566,29 @@
                               <label for="ilike">I'm Interested in</label>
                               <select name="ilike" id="ilike" class="form-control">
                                  <option value="">Select an Option</option>
+                                 <option value="ui_design">UI Design</option>
+                                 <option value="ux_design">UX Design</option>
                                  <option value="web_design">Web Design</option>
+                                 <option value="mobile_app_design">Mobile App Design</option>
                                  <option value="graphic_design">Graphic Design</option>
+                                 <option value="logo_design">Logo Design</option>
+                                 <option value="branding_identity">Branding & Identity Design</option>
+                                 <option value="illustration_design">Illustration Design</option>
+                                 <option value="motion_graphics">Motion Graphics Design</option>
+                                 <option value="product_design">Product Design</option>
+                                 <option value="3d_design">3D Design</option>
+                                 <option value="game_ui_design">Game UI/UX Design</option>
+                                 <option value="infographic_design">Infographic Design</option>
+                                 <option value="presentation_design">Presentation & Pitch Deck Design</option>
+                                 <option value="social_media_design">Social Media Post & Ad Design</option>
+                                 <option value="packaging_design">Packaging Design</option>
+                                 <option value="print_design">Print & Publication Design</option>
+                                 <option value="email_template_design">Email Template Design</option>
+                                 <option value="digital_marketing_creatives">Digital Marketing Creatives</option>
                                  <option value="seo">SEO</option>
                                  <option value="digital_marketing">Digital Marketing</option>
                               </select>
+
                            </div>
                         </div>
                      </div>
@@ -566,10 +598,10 @@
                               <label for="budget">Budget Range</label>
                               <select name="budget" id="budget" class="form-control">
                                  <option value="">Select an Option</option>
-                                 <option value="under_1000">Under $1,000</option>
-                                 <option value="1000_5000">$1,000 - $5,000</option>
-                                 <option value="5000_10000">$5,000 - $10,000</option>
-                                 <option value="above_10000">Above $10,000</option>
+                                 <option value="under_1000">Under ₹1,000</option>
+                                 <option value="1000_5000">₹1,000 - ₹5,000</option>
+                                 <option value="5000_10000">₹5,000 - ₹10,000</option>
+                                 <option value="above_10000">Above ₹10,000</option>
                               </select>
                            </div>
                         </div>
@@ -578,6 +610,7 @@
                               <label for="country">Country</label>
                               <select name="country" id="country" class="form-control">
                                  <option value="">Select an Option</option>
+                                 <option value="india">INDIA</option>
                                  <option value="usa">USA</option>
                                  <option value="canada">Canada</option>
                                  <option value="uk">UK</option>
@@ -639,12 +672,12 @@
                                  <i class="las la-star"></i>
                                  <strong>5.0</strong>
                               </h6>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                              <p><em>"Working with Lalatendu was a game-changer for our app. He didn’t just make it look beautiful—he made it intuitive and easy to use. Our user engagement jumped 40% after the redesign!"</em></p>
                               <div class="clientDetail">
                                  <figure>
                                     <img src="assets/img/clientIcon.png" alt="Client Image" class="img-fluid">
                                  </figure>
-                                 <h5>John Doe<span>CEO, Example Company</span></h5>
+                                 <h5>Priya Mehta<span>Product Manager, TechNova</span></h5>
                               </div>
                            </div>
                         </div>
@@ -658,12 +691,12 @@
                                  <i class="las la-star"></i>
                                  <strong>5.0</strong>
                               </h6>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                              <p><em>"We worked remotely from Canada, and communication was flawless. Lalatendu sent regular updates, prototypes, and even video walkthroughs. The final UI was exactly what we envisioned."</em></p>
                               <div class="clientDetail">
                                  <figure>
                                     <img src="assets/img/clientIcon.png" alt="Client Image" class="img-fluid">
                                  </figure>
-                                 <h5>John Doe<span>CEO, Example Company</span></h5>
+                                 <h5>Sophie Tremblay<span>Startup Founder, Montreal, Canada</span></h5>
                               </div>
                            </div>
                         </div>
@@ -677,12 +710,12 @@
                                  <i class="las la-star"></i>
                                  <strong>5.0</strong>
                               </h6>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                              <p><em>"From the very first mood board to the final interactive prototype, the process was smooth and professional. He understood our brand and brought it to life in a way that felt fresh yet familiar."</em></p>
                               <div class="clientDetail">
                                  <figure>
                                     <img src="assets/img/clientIcon.png" alt="Client Image" class="img-fluid">
                                  </figure>
-                                 <h5>John Doe<span>CEO, Example Company</span></h5>
+                                 <h5>Arjun Verma<span>Founder, UrbanCart</span></h5>
                               </div>
                            </div>
                         </div>
@@ -696,12 +729,12 @@
                                  <i class="las la-star"></i>
                                  <strong>5.0</strong>
                               </h6>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                              <p><em>"He understood our target audience in Germany and designed an app interface that feels local and user-friendly. The typography choices and layout are spot on."</em></p>
                               <div class="clientDetail">
                                  <figure>
                                     <img src="assets/img/clientIcon.png" alt="Client Image" class="img-fluid">
                                  </figure>
-                                 <h5>John Doe<span>CEO, Example Company</span></h5>
+                                 <h5>Markus Klein<span>Product Owner, Berlin, Germany</span></h5>
                               </div>
                            </div>
                         </div>
@@ -715,12 +748,12 @@
                                  <i class="las la-star"></i>
                                  <strong>5.0</strong>
                               </h6>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                              <p><em>"We approached Lalatendu with a messy dashboard and a tight deadline. He transformed it into a clean, user-friendly interface and even added subtle design touches that our team loves."</em></p>
                               <div class="clientDetail">
                                  <figure>
                                     <img src="assets/img/clientIcon.png" alt="Client Image" class="img-fluid">
                                  </figure>
-                                 <h5>John Doe<span>CEO, Example Company</span></h5>
+                                 <h5>Sonia Kapoor<span>Operations Head, FinEdge</span></h5>
                               </div>
                            </div>
                         </div>
@@ -734,15 +767,17 @@
                                  <i class="las la-star"></i>
                                  <strong>5.0</strong>
                               </h6>
-                              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptatum.</p>
+                              <p><em>"What stood out was his attention to micro-interactions. The small animations and visual cues make our website feel alive, and customers have actually mentioned it in their feedback!"</em></p>
                               <div class="clientDetail">
                                  <figure>
                                     <img src="assets/img/clientIcon.png" alt="Client Image" class="img-fluid">
                                  </figure>
-                                 <h5>John Doe<span>CEO, Example Company</span></h5>
+                                 <h5>Rahul Desai<span>CEO, Evently</span></h5>
                               </div>
                            </div>
                         </div>
+                        
+                        
                      </div>
 
 
@@ -767,8 +802,8 @@
                      <span class="mainTitle">My Latest <em>News & Blogs</em></span>
                   </h2>
                </div>
-               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All Blogs</span><i
-                        class="las la-long-arrow-alt-right"></i></button></div>
+               <div class="col text-end d-sm-block d-none"><button class="btn-lg customBtn"><span>View All
+                        Blogs</span><i class="las la-long-arrow-alt-right"></i></button></div>
             </div>
             <div class="row g-5">
                <div class="col-sm-4">
@@ -853,17 +888,12 @@
                         <h2 class="accordion-header">
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
-                              Accordion Item #1
+                              What is UI/UX design, and why is it important?
                            </button>
                         </h2>
-                        <div id="faqOne" class="accordion-collapse collapse"
-                           data-bs-parent="#accordionFaqs">
+                        <div id="faqOne" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
                            <div class="accordion-body">
-                              <strong>This is the first item’s accordion body.</strong> It is shown by default, until
-                              the collapse plugin adds the appropriate classes that we use to style each element. These
-                              classes control the overall appearance, as well as the showing and hiding via CSS
-                              transitions. You can modify any of this with custom CSS or overriding our default
-                              variables. It’s also worth noting that just about any HTML can go within the though the transition does limit overflow.
+                              UI/UX design is the process of creating digital products—such as websites, mobile apps, or software—that are both visually appealing and easy to use. UI (User Interface) focuses on the visual elements like layouts, colors, typography, and interactive components. UX (User Experience) focuses on the overall flow, usability, and satisfaction a user feels while using the product. Good UI/UX design ensures that your audience can interact with your brand or product without confusion or frustration. It increases engagement, builds trust, and often directly impacts your business growth by improving conversion rates and retaining customers.
                            </div>
                         </div>
                      </div>
@@ -871,17 +901,12 @@
                         <h2 class="accordion-header">
                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">
-                              Accordion Item #2
+                              How long does a UI/UX design project usually take?
                            </button>
                         </h2>
                         <div id="faqTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionFaqs">
                            <div class="accordion-body">
-                              <strong>This is the second item’s accordion body.</strong> It is hidden by default, until
-                              the collapse plugin adds the appropriate classes that we use to style each element. These
-                              classes control the overall appearance, as well as the showing and hiding via CSS
-                              transitions. You can modify any of this with custom CSS or overriding our default
-                              variables. It’s also worth noting that just about any HTML can go within the
-                              <code>.accordion-body</code>, though the transition does limit overflow.
+                              The timeline for a UI/UX project depends heavily on the size and complexity of the project. A small project like a landing page or a simple app screen might take 1–2 weeks, while a larger, multi-page website or a feature-rich mobile app can take anywhere from 4–8 weeks or more. The process involves several stages: initial consultation, research, wireframing, prototyping, design iterations, and final delivery. Client feedback at each stage plays a big role in the overall timeline.
                            </div>
                         </div>
                      </div>
@@ -889,17 +914,12 @@
                         <h2 class="accordion-header">
                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
                               data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
-                              Accordion Item #3
+                              Do you provide prototypes before finalizing the design?
                            </button>
                         </h2>
                         <div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#accordionFaqs">
                            <div class="accordion-body">
-                              <strong>This is the third item’s accordion body.</strong> It is hidden by default, until
-                              the collapse plugin adds the appropriate classes that we use to style each element. These
-                              classes control the overall appearance, as well as the showing and hiding via CSS
-                              transitions. You can modify any of this with custom CSS or overriding our default
-                              variables. It’s also worth noting that just about any HTML can go within the
-                              <code>.accordion-body</code>, though the transition does limit overflow.
+                              Yes. Before finalizing any design, we create clickable or interactive prototypes using tools like Figma or Adobe XD. These prototypes allow you to see exactly how the product will function, navigate through screens, and get a realistic feel for the end product. This step ensures you can request changes early, saving both time and development costs later.
                            </div>
                         </div>
                      </div>
@@ -908,22 +928,7 @@
             </div>
          </div>
       </section>
-      <section class="linkRoller">
-         <!-- Slider main container -->
-         <div class="swiper">
-            <!-- Additional required wrapper -->
-            <div class="swiper-wrapper">
-               <!-- Slides -->
-               <div class="swiper-slide"><i class="las la-snowflake"></i> Graphics Design</div>
-               <div class="swiper-slide"><i class="las la-snowflake"></i> Website Design</div>
-               <div class="swiper-slide"><i class="las la-snowflake"></i> App Design</div>
-               <div class="swiper-slide"><i class="las la-snowflake"></i> Product Design</div>
-               <div class="swiper-slide"><i class="las la-snowflake"></i> UI/UX Design</div>
-               <div class="swiper-slide"><i class="las la-snowflake"></i> Responsive Design</div>
-            </div>
 
-         </div>
-      </section>
       <!--Footer Start Here-->
       <?php include( "includes/footer.php" ); ?>
       <!--Footer Ends Here-->

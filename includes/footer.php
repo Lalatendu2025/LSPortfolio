@@ -1,5 +1,21 @@
 <!-- footer Section Starts Here -->
 <footer class="footer">
+  <section class="linkRoller ">
+         <!-- Slider main container -->
+         <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+               <!-- Slides -->
+               <div class="swiper-slide"><i class="las la-snowflake"></i> Graphics Design</div>
+               <div class="swiper-slide"><i class="las la-snowflake"></i> Website Design</div>
+               <div class="swiper-slide"><i class="las la-snowflake"></i> App Design</div>
+               <div class="swiper-slide"><i class="las la-snowflake"></i> Product Design</div>
+               <div class="swiper-slide"><i class="las la-snowflake"></i> UI/UX Design</div>
+               <div class="swiper-slide"><i class="las la-snowflake"></i> Responsive Design</div>
+            </div>
+
+         </div>
+      </section>
   <section class="mainFooter">
     <div class="container">
       <div class="row">
@@ -15,7 +31,7 @@
             <figure class="footerLogo">
                 <img src="assets/img/footerLogo.png" alt="Lalatendu Sarangi Logo">
             </figure>
-            <p class="my-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, temporibus aperiam? Quae officia, perferendis consequatur saepe.</p>
+            <p class="my-5">Crafting beautiful websites, apps, and designs that your users will love. Let’s build something amazing together!</p>
             <ul class="footerSocialLinks">
                 <li><a href="#"><i class="lab la-facebook-f"></i></a></li>
                 <li><a href="#"><i class="lab la-instagram"></i></a></li>

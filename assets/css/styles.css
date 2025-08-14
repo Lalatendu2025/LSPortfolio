@@ -92,7 +92,9 @@ select {
   margin: 0 auto;
   padding: 0 15px;
 }
-
+.wrapper,section{
+    overflow-x: hidden;
+}
 /* ===== Header Styling ===== */
 .header {
   background: var(--primary);
@@ -613,6 +615,7 @@ opacity: 1;
   position: relative;
   overflow: hidden;
   z-index: 3;
+  height: 100%;
 }
 .myPricingList .pricingBox:after {
   content: "";
@@ -679,7 +682,7 @@ opacity: 1;
 }
 .myPricingList .pricingBox .pbBody p {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: flex-start;
   margin: 0;
   font-size: 1em;
@@ -689,6 +692,8 @@ opacity: 1;
   margin-right: 0.5em;
   color: var(--secondary);
   font-size: 1.5rem;
+  position: relative;
+  top: 2px;
 }
 .myPricingList .pricingBox .pbBody p.disabled {
   opacity: 0.3;
@@ -1118,8 +1123,10 @@ opacity: 1;
 }
 @media screen and (max-width: 600px) {
   section{
-    overflow-x: hidden;
     padding: 2em 0!important;
+  }
+  .footer .linkRoller{
+    padding:3em 0!important;
   }
   .header {
     padding: 0.5em 0;
